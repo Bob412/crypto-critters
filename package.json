@@ -1,0 +1,36 @@
+{
+  "name": "crypto-critters",
+  "version": "1.0.0",
+  "description": "CryptoCritters - An on-chain generated NFT collection",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "hardhat:compile": "yarn workspace @crypto-critters/hardhat compile",
+    "hardhat:test": "yarn workspace @crypto-critters/hardhat test",
+    "hardhat:node": "yarn workspace @crypto-critters/hardhat node",
+    "hardhat:deploy": "yarn workspace @crypto-critters/hardhat deploy",
+    "hardhat:deploy:sepolia": "yarn workspace @crypto-critters/hardhat deploy:sepolia",
+    "nextjs:dev": "yarn workspace @crypto-critters/nextjs dev",
+    "nextjs:build": "yarn workspace @crypto-critters/nextjs build",
+    "nextjs:start": "yarn workspace @crypto-critters/nextjs start",
+    "start": "yarn hardhat:node",
+    "deploy": "yarn hardhat:deploy",
+    "dev": "yarn nextjs:dev"
+  },
+  "keywords": [
+    "ethereum",
+    "nft",
+    "blockchain",
+    "erc721",
+    "svg",
+    "on-chain"
+  ],
+  "author": "CryptoCritters Team",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.1.3"
+  }
+}

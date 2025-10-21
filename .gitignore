@@ -1,0 +1,63 @@
+# Hardhat
+/packages/hardhat/node_modules
+/packages/hardhat/cache
+/packages/hardhat/artifacts
+/packages/hardhat/coverage
+/packages/hardhat/coverage.json
+/packages/hardhat/typechain
+/packages/hardhat/.openzeppelin
+/packages/hardhat/.env
+
+# Next.js
+/packages/nextjs/node_modules
+/packages/nextjs/.next/
+/packages/nextjs/out/
+/packages/nextjs/.env*.local
+/packages/nextjs/.env
+/packages/nextjs/.vercel
+
+# Root files
+node_modules
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.cache
+.turbo
+
+*.sh

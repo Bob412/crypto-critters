@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 240, 240, 245;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.mint-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  border-radius: 1rem;
+}
+
+.gallery-card {
+  transition: transform 0.2s;
+}
+
+.gallery-card:hover {
+  transform: translateY(-4px);
+}
+
+.btn-primary {
+  @apply bg-primary text-white font-bold py-2 px-6 rounded-lg hover:bg-primary-hover transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white font-bold py-2 px-6 rounded-lg hover:bg-secondary-hover transition-colors duration-200;
+}
+
+.nft-image {
+  @apply rounded-lg shadow-lg;
+}
+
+.loading-spinner {
+  @apply animate-spin-slow;
+}
