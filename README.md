@@ -1,8 +1,8 @@
+![crypto-critters](https://socialify.git.ci/Bob412/crypto-critters/image?custom_description=A+fully+on-chain+NFT+collection+where+each+NFT+is+uniquely+generated+as+an+SVG+directly+on+the+Ethereum+blockchain.+&description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
+
 # CryptoCritters 🐾
 
 CryptoCritters is a fully on-chain NFT collection where each NFT is uniquely generated as an SVG directly on the Ethereum blockchain. No IPFS, no external servers - your NFT lives entirely on-chain!
-
-![CryptoCritters Banner](https://i.imgur.com/placeholder.png)
 
 ## Features
 
