@@ -21,7 +21,9 @@ contract CryptoCritters is ERC721URIStorage, Ownable {
 
     event Minted(address owner, uint256 tokenId);
 
-    constructor() ERC721("CryptoCritters", "CRIT") Ownable(msg.sender) {}
+    constructor() ERC721("CryptoCritters", "CRIT") {
+        _transferOwnership(msg.sender);
+    }
 
     function mint() public payable {
         require(msg.value == MINT_PRICE, "Incorrect mint price");
